@@ -808,6 +808,8 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  cursor: pointer;
+  width: -webkit-fill-available;
   text-align: center;
   background: #fefefe;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
