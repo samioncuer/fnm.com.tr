@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #f06f54;
+  background: #363636;
   color: #fff;
 }
 .back-to-top.active {
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #ef6445;
+  background: #8f8f8f;
 }
 .navbar .dropdown ul {
   display: block;
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
 }
 #hero .btn-get-started:hover {
-  background: #ef6445;
+  background: #8f8f8f;
 }
 @media (max-width: 992px) {
   #hero {
@@ -504,7 +504,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #f38b74;
+  background: #8f8f8f;
   margin: 4px 10px;
 }
 .section-title p {
@@ -703,7 +703,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#fdc90c 50%, rgba(237, 80, 46, 0.4) 52%);
+  background: radial-gradient(#fdc90c 50%, #8f8f8f 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -742,7 +742,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(237, 80, 46, 0.7);
+  border: 5px solid #8f8f8f;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -842,7 +842,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #f9c6bb;
+  background: #8f8f8f;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
@@ -872,7 +872,7 @@ section {
   color: #fdc90c;
 }
 .services .icon-box:hover .icon::before {
-  background: #f1775d;
+  background: #363636;
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
@@ -1064,7 +1064,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #f59f8c;
+  color: #8f8f8f;
 }
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
@@ -1281,7 +1281,7 @@ section {
   border-color: #fdc90c;
 }
 .pricing .featured .get-started-btn:hover {
-  background: #ef6445;
+  background: #363636;
 }
 @media (max-width: 992px) {
   .pricing .box {
@@ -1366,7 +1366,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #363636;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1424,7 +1424,7 @@ section {
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ef6445;
+  background: #363636;
 }
 @-webkit-keyframes animate-loading {
   0% {
