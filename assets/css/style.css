@@ -808,7 +808,6 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  cursor: pointer;
   width: -webkit-fill-available;
   text-align: center;
   background: #fefefe;
