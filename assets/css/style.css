@@ -504,7 +504,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #8f8f8f;
+  background: white;
   margin: 4px 10px;
 }
 .section-title p {
@@ -853,7 +853,7 @@ section {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: #0b2341;
+  color: #999;
 }
 .services .icon-box p {
   line-height: 24px;
