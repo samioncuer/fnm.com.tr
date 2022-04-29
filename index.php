@@ -213,11 +213,10 @@
               <p style="color: #fed636;">Nasıl Yaparız?</p>
             </div>
             <p style="color: white;">
-              Organizasyonların ve bireylerin ihtiyaçlarına kendi ihtiyacımız, derdimiz bu olsaydı ne yapardık
-              düşüncesiyle yaklaşırız.
-              İnandığımız, deneyimlediğimiz ve çözüm önerilerini tavsiye ederiz.<br>
-              Eğitimlerimizde, koçluk seanslarımızda ve çalıştaylarımızda kullandığımız araçlar,
-              metotlar ve yöntemler kendimiz için de uyguladıklarımızın aynısıdır.
+              Organizasyonların ve bireylerin ihtiyaçlarına kendi ihtiyacımız, derdimiz bu olsaydı ne yapardık düşüncesiyle yaklaşırız.<br>
+              İnandığımız, deneyimlediğimiz çözüm önerilerini sunarız.<br>
+              Eğitimlerimizde, koçluk seanslarımızda ve çalıştaylarımızda kullandığımız araçlar, metotlar ve yöntemler
+              30 yıldır başardıklarımız ve başaramadıklarımızın sentezinden oluşan tecrübelerle geliştirilmiştir.
             </p>
             <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
           </div>
@@ -240,21 +239,22 @@
         <div class="row align-items-center">
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
               <img class="hm-img" src="./assets/img/metotlarimiz/kocluk.jpg">
               <h3>KOÇLUK</h3>
               <p class="testimonial">
-                ICF sertifikalı uzmanlarımızla tüm hizmetlerimizde bireylere ve takımlara rehberlik yapmayı
-                ilke edinen koçluk yaklaşımımızla; çalışanlarla ve üst düzey yöneticilerle, organizasyonlardaki
-                üst düzey takımları ve fonksiyonel ekipleri kurumun iş sonuçları doğrultusunda dönüştürmeyi
-                hedefliyoruz.
+                ICF sertifikalı uzmanlarımızla tüm hizmetlerimizde bireylere ve takımlara rehberlik etmeyi ilke edinen koçluk yaklaşımımız,
+                çalışanların ve üst düzey yöneticilerin, organizasyonlardaki üst düzey takımların ve fonksiyonel ekiplerin kurumun
+                iş sonuçları doğrultusunda dönüşümüne katkı sağlıyoruz. Eğitim programlarında tutundurmayı destekleyen bire bir 
+                koçluk seanslarının yanı sıra üst düzey yöneticilerle
+                gerçekleştirilen koçluklar ve verimli takım olmaya hizmet eden takım koçluğu uygulamalarına programlarımızda yer veriyoruz.
               </p>
               <!-- <a href="#" class="get-started-btn">Get Started</a> -->
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
               <img class="hm-img" src="./assets/img/metotlarimiz/calistaylar.jpg">
               <h3>ÇALIŞTAYLAR</h3>
               <p class="testimonial">
@@ -272,20 +272,19 @@
         <div class="row align-items-center">
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
               <img class="hm-img" src="./assets/img/metotlarimiz/egitimler.jpg">
               <h3>YÜZYÜZE VE SANAL SINIF EĞİTİMLERİ</h3>
               <p class="testimonial">
-                Öğretmeyi değil dönüştürmeyi ve geliştirmeyi felsefe olarak benimsediğimiz;
-                insanların merak etmelerine, düşünmelerine ve sorgulamalarına yardımcı olarak
-                istedikleri kişi olmalarına hizmet eden eğitmenlik yaklaşımımızı hem yüz yüze
-                hem de sanal sınıflarda aynı kalitede sunuyoruz.
+                Öğretmeyi değil dönüştürmeyi ve geliştirmeyi felsefe olarak benimsediğimiz; insanların merak etmelerine,
+                düşünmelerine ve sorgulamalarına yardımcı olarak istedikleri kişi olmalarına hizmet eden eğitmenlik
+                yaklaşımımızı yüz yüze ve sanal sınıflarda kuruma özel tasarlanmış araçlarla sunuyoruz.
               </p>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
               <img class="hm-img" src="./assets/img/metotlarimiz/olcme-secme-degerlendirme.jpg">
               <h3>ÖLÇME, SEÇME VE DEĞERLENDİRME</h3>
               <p class="testimonial">
@@ -319,7 +318,7 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               
               <div class="icon"><i class='bx bxs-analyse'></i></box-icon></div>
               <h4><a href="./hizmetlerimiz/ihtiyac-tespiti-analiz.html">İhtiyaç Tespiti/Analizi</a></h4>
@@ -328,7 +327,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
             data-aos-delay="200">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="./hizmetlerimiz/isbirlikci-kurumsal-kultur.html">İşbirlikçi Kurumsal Kültür</a></h4>
             </div>
@@ -336,21 +335,21 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
             data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class='bx bx-group'></i></div>
               <h4><a href="./hizmetlerimiz/calisan-bagliligi.html">Yüksek Düzeyde Çalışan Bağlılığı</a></h4>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class='bx bx-trending-up'></i></div>
               <h4><a href="./hizmetlerimiz/lider-yetistirme.html">Yeni Nesil Organizasyonel Liderler Yetiştirme</a></h4>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class='bx bx-meteor'></i></div>
               <h4><a href="./hizmetlerimiz/yetenek-yonetimi.html">Yetenek Yönetiminde Rekabetçi Yaklaşımlar
                   Sergileme</a></h4>
@@ -358,7 +357,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="./hizmetlerimiz/glokalizasyon.html">Glokalizasyon</a></h4>
             </div>
@@ -366,7 +365,7 @@
 
           <div class="offset-lg-4 col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
             data-aos-delay="300">
-            <div class="icon-box">
+            <div class="icon-box" style="border-radius: 15px;">
               <div class="icon"><i class='bx bx-line-chart'></i></div>
               <h4><a href="./hizmetlerimiz/organizasyonel-gelisim-surecleri.html">Organizasyonel Gelişim Süreçleri</a>
               </h4>
@@ -468,7 +467,7 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4>Neden Eğitim Kataloğunuz Yok?</h4>
+            <h4 style="color: white;">Neden Eğitim Kataloğunuz Yok?</h4>
           </div>
           <div class="col-lg-7">
             <p style="color: white;">
@@ -485,7 +484,7 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4>İhtiyacımız zaten belliyse ve eğitim konu başlıklarımız belirlenmişse sizinle nasıl çalışacağız?</h4>
+            <h4 style="color: white;">İhtiyacımız zaten belliyse ve eğitim konu başlıklarımız belirlenmişse sizinle nasıl çalışacağız?</h4>
           </div>
           <div class="col-lg-7">
             <p style="color: white;">
@@ -500,7 +499,7 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4>Hizmetlerinizde memnuniyet oranınızı ölçüyor musunuz, genel ortalamanız kaç puan?</h4>
+            <h4 style="color: white;">Hizmetlerinizde memnuniyet oranınızı ölçüyor musunuz, genel ortalamanız kaç puan?</h4>
           </div>
           <div class="col-lg-7">
             <p style="color: white;">
@@ -515,7 +514,7 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4>Programlarınızın sonunda eğitimlere yapılan yatırımın iş sonuçlarına etkisini nasıl hesaplıyorsunuz?
+            <h4 style="color: white;">Programlarınızın sonunda eğitimlere yapılan yatırımın iş sonuçlarına etkisini nasıl hesaplıyorsunuz?
             </h4>
           </div>
           <div class="col-lg-7">
@@ -543,14 +542,15 @@
 
         <div class="row">
 
-          <div class="col-lg-6">
+          <div class="col-lg-6" style="margin-bottom: 20px;">
 
             <div class="row">
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Adresimiz</h3>
-                  <p>Kolektif House</p>
+                  <p>Barbaros Mah. NidaKule Batı Bloğu, D:No:1/2
+                    Ataşehir/İstanbul</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -571,8 +571,8 @@
 
           </div>
 
-          <div class="col-lg-6">
-            <form action="index.php?islem" method="post" class="form-control">
+          <div class="col-lg-6" style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);  background-color: white;">
+            <form action="index.php?islem" method="post" class="form-control" style="margin-top: 5%;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="isim" id="isim" class="form-control" placeholder="İsminiz" required>
@@ -589,14 +589,38 @@
                 <textarea class="form-control" name="mesaj" id="mesaj" rows="5" placeholder="Mesajınız"
                   required></textarea>
               </div>
-              <!-- <div class="my-3">
-                <div class="loading" style="visibility:hidden">Yükleniyor</div>
-                <div class="error-message" style="visibility:hidden"></div>
-                <div class="sent-message" style="visibility:hidden">Mesajınız Gönderildi. Teşekkürler!</div>
-              </div> -->
               <div class="text-center">
-                <button type="submit" class="btn btn-sm btn-primary" style="background-color: #e9c648; margin-top: 5px; border: none;">Gönder</button>
+                <button type="submit" class="btn btn-sm btn-primary" style="background-color: #e9c648; margin-top: 15px; border: none;">Gönder</button>
               </div>
+              <?php
+                if (isset($_GET['islem'])) {
+                  if ($_POST['eposta']<>'' && $_POST['isim']<>'' && $_POST['konu']<>'' && $_POST['mesaj']<>'') {
+                  require_once("class.phpmailer.php");
+
+                  $mail = new PHPMailer();
+                  $mail->IsSMTP();
+                  $mail->Host = "mail.fnm.com.tr";
+                  $mail->SMTPAuth = true;
+                  $mail->CharSet = 'utf-8';
+                  $mail->Username = "info@fnm.com.tr";
+                  $mail->Password = "MuratGumus2409";
+                  $mail->From = "info@fnm.com.tr";
+                  $mail->Fromname = $_POST['isim'];
+                  $mail->AddAddress("aslanbatuhan582@gmail.com","Mail gönderimi");
+                  $mail->Subject = $_POST['konu'] . $_POST['eposta'];
+                  $mail->Body = $_POST['mesaj'];
+
+                  if(!$mail->Send())
+                  {
+                      echo '<font color="#F62217"><b>Gönderim Hatası: ' . $mail->ErrorInfo . '</b></font>';
+                      exit;
+                  }
+                  echo '<font color="#41A317"><b>Mesaj başarıyla gönderildi.</b></font>';
+                  } else {
+                    echo '<font color="#F62217"><b>Tüm alanların doldurulması zorunludur.</b></font>';
+                  }
+                }
+              ?>
             </form>
           </div>
 
