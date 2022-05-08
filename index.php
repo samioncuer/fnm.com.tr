@@ -96,6 +96,24 @@
       margin-top: -7vh;
       border-radius: 5px;
     }
+
+    .hr-clr {
+      background-color: #e9c648;
+    }
+    .float{
+                position:fixed;
+                width:60px;
+                height:60px;
+                bottom: 70px;
+                right:40px;
+                background-color:#25d366;
+                color:#FFF;
+                border-radius:50px;
+                text-align:center;
+                font-size:30px;
+                box-shadow: 2px 2px 3px #999;
+                z-index:100;
+            }
   </style>
 </head>
 
@@ -213,7 +231,8 @@
               <p style="color: #fed636;">Nasıl Yaparız?</p>
             </div>
             <p style="color: white;">
-              Organizasyonların ve bireylerin ihtiyaçlarına kendi ihtiyacımız, derdimiz bu olsaydı ne yapardık düşüncesiyle yaklaşırız.<br>
+              Organizasyonların ve bireylerin ihtiyaçlarına kendi ihtiyacımız, derdimiz bu olsaydı ne yapardık
+              düşüncesiyle yaklaşırız.<br>
               İnandığımız, deneyimlediğimiz çözüm önerilerini sunarız.<br>
               Eğitimlerimizde, koçluk seanslarımızda ve çalıştaylarımızda kullandığımız araçlar, metotlar ve yöntemler
               30 yıldır başardıklarımız ve başaramadıklarımızın sentezinden oluşan tecrübelerle geliştirilmiştir.
@@ -226,14 +245,14 @@
     </section>
     <!-- End About Section -->
 
-
+    <hr class="hr-clr">
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing bg-light-blue">
+    <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Metotlarımız Ve Araçlar</h2>
-          <p>Metotlarımız Ve Araçlar</p>
+          <h2 style="color: white;">Metotlarımız Ve Araçlar</h2>
+          <p style="color: #fed636;">Metotlarımız Ve Araçlar</p>
         </div>
 
         <div class="row align-items-center">
@@ -243,11 +262,15 @@
               <img class="hm-img" src="./assets/img/metotlarimiz/kocluk.jpg">
               <h3>KOÇLUK</h3>
               <p class="testimonial">
-                ICF sertifikalı uzmanlarımızla tüm hizmetlerimizde bireylere ve takımlara rehberlik etmeyi ilke edinen koçluk yaklaşımımız,
-                çalışanların ve üst düzey yöneticilerin, organizasyonlardaki üst düzey takımların ve fonksiyonel ekiplerin kurumun
-                iş sonuçları doğrultusunda dönüşümüne katkı sağlıyoruz. Eğitim programlarında tutundurmayı destekleyen bire bir 
+                ICF sertifikalı uzmanlarımızla tüm hizmetlerimizde bireylere ve takımlara rehberlik etmeyi ilke edinen
+                koçluk yaklaşımımız,
+                çalışanların ve üst düzey yöneticilerin, organizasyonlardaki üst düzey takımların ve fonksiyonel
+                ekiplerin kurumun
+                iş sonuçları doğrultusunda dönüşümüne katkı sağlıyoruz. Eğitim programlarında tutundurmayı destekleyen
+                bire bir
                 koçluk seanslarının yanı sıra üst düzey yöneticilerle
-                gerçekleştirilen koçluklar ve verimli takım olmaya hizmet eden takım koçluğu uygulamalarına programlarımızda yer veriyoruz.
+                gerçekleştirilen koçluklar ve verimli takım olmaya hizmet eden takım koçluğu uygulamalarına
+                programlarımızda yer veriyoruz.
               </p>
               <!-- <a href="#" class="get-started-btn">Get Started</a> -->
             </div>
@@ -305,7 +328,7 @@
     </section><!-- End Pricing Section -->
 
 
-
+    <hr class="hr-clr">
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
@@ -319,8 +342,9 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box" style="border-radius: 15px;">
-              
-              <div class="icon"><i class='bx bxs-analyse'></i></box-icon></div>
+
+              <div class="icon"><i class='bx bxs-analyse'></i></box-icon>
+              </div>
               <h4><a href="./hizmetlerimiz/ihtiyac-tespiti-analiz.html">İhtiyaç Tespiti/Analizi</a></h4>
             </div>
           </div>
@@ -378,14 +402,14 @@
       </div>
     </section>
     <!-- End Services Section -->
-
+    <hr class="hr-clr">
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Bizim İçin Ne Dediler?</h2>
-          <p>Bizim İçin Ne Dediler?</p>
+          <h2 style="color: white;">Bizim İçin Ne Dediler?</h2>
+          <p style="color: #fed636;">Bizim İçin Ne Dediler?</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="10">
@@ -444,6 +468,31 @@
             </div>
             <!--End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                  <h3>Çiğdem Karakuş</h3>
+                  <h4>HEKTAŞ İnsan Kaynakları Direktörü</h4>
+                  <p class="testimonial">
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Değerli FNM Danışmanlık Ailesi,<br>
+                    HEKTAŞ olarak, sizler tarafından hazırlanan Lider Gelişim Programı ve
+                    Yönetici Gelişim Programları kapsamında hayata geçirilen çalışmaları
+                    birlikte başarıyla tamamlamanın mutluluğunu yaşıyoruz. Tarım sektöründe
+                    66 yılı aşan köklü bir şirket olarak çalışanlarımıza vermiş olduğumuz
+                    değeri sürdürülebilir kılıyor, gelişimi destekleyici projeleri, eğitimleri
+                    ve çalışmaları onlarla buluşturuyoruz.
+                    Bizleri bu yolcuğumuzda, insan odaklı, çalışana değer
+                    katan programlarınızla buluşturduğunuz için tüm ekibinize
+                    teşekkürlerimizi sunarız.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -451,9 +500,77 @@
       </div>
     </section>
     <!-- End Testimonials Section -->
+    <hr class="hr-clr">
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2 style="color: white;">İş Ortaklarımız</h2>
+          <p style="color: #fed636;">İş Ortaklarımız</p>
+        </div>
 
+        <div class="row">
 
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/partner/acıbadem-logo.jpg" class="img-fluid" alt="">
+              <!-- <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/partner/hektaş-logo.jpg" class="img-fluid" alt="">
+              <!-- <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.2s">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/partner/tek-kare-logo.jpg" class="img-fluid" alt="">
+              <!-- <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+    <hr class="hr-clr">
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -484,7 +601,8 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4 style="color: white;">İhtiyacımız zaten belliyse ve eğitim konu başlıklarımız belirlenmişse sizinle nasıl çalışacağız?</h4>
+            <h4 style="color: white;">İhtiyacımız zaten belliyse ve eğitim konu başlıklarımız belirlenmişse sizinle
+              nasıl çalışacağız?</h4>
           </div>
           <div class="col-lg-7">
             <p style="color: white;">
@@ -499,7 +617,8 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4 style="color: white;">Hizmetlerinizde memnuniyet oranınızı ölçüyor musunuz, genel ortalamanız kaç puan?</h4>
+            <h4 style="color: white;">Hizmetlerinizde memnuniyet oranınızı ölçüyor musunuz, genel ortalamanız kaç puan?
+            </h4>
           </div>
           <div class="col-lg-7">
             <p style="color: white;">
@@ -514,7 +633,8 @@
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="col-lg-5">
             <i class="bx bx-help-circle" style="color: #fed636;"></i>
-            <h4 style="color: white;">Programlarınızın sonunda eğitimlere yapılan yatırımın iş sonuçlarına etkisini nasıl hesaplıyorsunuz?
+            <h4 style="color: white;">Programlarınızın sonunda eğitimlere yapılan yatırımın iş sonuçlarına etkisini
+              nasıl hesaplıyorsunuz?
             </h4>
           </div>
           <div class="col-lg-7">
@@ -530,14 +650,14 @@
 
       </div>
     </section><!-- End Frequently Asked Questions Section -->
-
+    <hr class="hr-clr">
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>İLETİŞİM</h2>
-          <p>BİZE ULAŞIN</p>
+          <h2 style="color: white;">İLETİŞİM</h2>
+          <p style="color: #fed636;">BİZE ULAŞIN</p>
         </div>
 
         <div class="row">
@@ -590,7 +710,8 @@
                   required></textarea>
               </div>
               <div class="text-center">
-                <button type="submit" class="btn btn-sm btn-primary" style="background-color: #e9c648; margin-top: 15px; border: none;">Gönder</button>
+                <button type="submit" class="btn btn-sm btn-primary"
+                  style="background-color: #e9c648; margin-top: 15px; border: none;">Gönder</button>
               </div>
               <?php
                 if (isset($_GET['islem'])) {
@@ -640,6 +761,10 @@
         </div>
       </div>
     </div>
+
+    <a href="https://wa.me/+905052520992" class="float" target="_blank">
+      <i class='bx bxl-whatsapp my-float'></i>
+    </a>
 
     <!-- Start Copy Right Area -->
     <div class="copyright-area">
