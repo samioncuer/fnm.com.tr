@@ -89,6 +89,7 @@
       overflow: auto;
       height: 15vh;
       padding: 5px;
+      border-radius: 15%;
     }
 
     .hm-img {
@@ -100,20 +101,61 @@
     .hr-clr {
       background-color: #e9c648;
     }
-    .float{
-                position:fixed;
-                width:60px;
-                height:60px;
-                bottom: 70px;
-                right:40px;
-                background-color:#25d366;
-                color:#FFF;
-                border-radius:50px;
-                text-align:center;
-                font-size:30px;
-                box-shadow: 2px 2px 3px #999;
-                z-index:100;
-            }
+
+    .float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 70px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+
+    .sw-img {
+      width: 150px !important;
+      height: 120px !important;
+      object-fit: contain !important;
+      border-radius: 15px;
+    }
   </style>
 </head>
 
@@ -258,7 +300,7 @@
         <div class="row align-items-center">
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px; overflow: auto;">
               <img class="hm-img" src="./assets/img/metotlarimiz/kocluk.jpg">
               <h3>KOÇLUK</h3>
               <p class="testimonial">
@@ -277,7 +319,7 @@
           </div>
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px; overflow: auto;">
               <img class="hm-img" src="./assets/img/metotlarimiz/calistaylar.jpg">
               <h3>ÇALIŞTAYLAR</h3>
               <p class="testimonial">
@@ -295,7 +337,7 @@
         <div class="row align-items-center">
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px; overflow: auto;">
               <img class="hm-img" src="./assets/img/metotlarimiz/egitimler.jpg">
               <h3>YÜZYÜZE VE SANAL SINIF EĞİTİMLERİ</h3>
               <p class="testimonial">
@@ -307,7 +349,7 @@
           </div>
 
           <div class="col-lg-6">
-            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px;">
+            <div class="hgt box featured data-aos=" zoom-in" data-aos-delay="100" style="border-radius: 15px; overflow: auto;">
               <img class="hm-img" src="./assets/img/metotlarimiz/olcme-secme-degerlendirme.jpg">
               <h3>ÖLÇME, SEÇME VE DEĞERLENDİRME</h3>
               <p class="testimonial">
@@ -413,14 +455,14 @@
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="10">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper mySwiper">
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
                   <h3>Ece Doğan</h3>
-                  <h4>Mars Sportif İnsan Kaynakları Direktörü</h4>
+                  <h4>Mars Sportif | İnsan Kaynakları Direktörü</h4>
                   <p class="testimonial">
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                     FNM Danışmanlık ile 2020 yılı itibariyle çalışmaya başladık ve yaklaşık 120 Satış Temsilcimiz için
@@ -442,7 +484,7 @@
                 <div class="testimonial-item">
                   <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
                   <h3>Duygu Apaydın</h3>
-                  <h4>BUPA ACIBADEM Sigorta İnsan Kaynakları Müdürü</h4>
+                  <h4>BUPA ACIBADEM Sigorta | İnsan Kaynakları Müdürü</h4>
                   <p class="testimonial">
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                     FNM Çözüm Ortaklığı ile 2021 yılı itibariyle çalışmaya başladık ve yaklaşık 140 çalışanımız için
@@ -473,7 +515,7 @@
                 <div class="testimonial-item">
                   <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
                   <h3>Çiğdem Karakuş</h3>
-                  <h4>HEKTAŞ İnsan Kaynakları Direktörü</h4>
+                  <h4>HEKTAŞ | İnsan Kaynakları Direktörü</h4>
                   <p class="testimonial">
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                     Değerli FNM Danışmanlık Ailesi,<br>
@@ -493,6 +535,40 @@
             </div>
             <!-- End testimonial item -->
 
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                  <h3>Ece Meral</h3>
+                  <h4>CMA CGM Shipping Agency | HR Business Partner</h4>
+                  <p class="testimonial">
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    İnsanların adı ve soyadından daha uzun ve bazen adlarından önce söyleme
+                    ihtiyacı hissettikleri pek çok unvanla karşılaştım iş hayatında.
+                    İçimizde bir yerlerde dolduramadığımız ve hatta tanımlamakta dahi
+                    zorlandığımız boşlukları bir takım unvanları kısaltarak, doldurmaya çalışıyoruz.
+                    Bedenimize pek de uymayan türlü kıyafetlerle donanmamızın neredeyse makbul olduğu
+                    günümüz iş hayatında “kim olduğumuzu uzatabilmek için kısaltma kullandığımız” ironisi,
+                    temelde hep görünür olmak, tanınmak, kabul görmek gibi kaygıları barındırıyor içinde.<br>
+                    “Unvanlara yaslanmadan, sertifikalar biriktirmeden, popüler kelimelerle cümle kurmadan
+                    da ne olduğumuzu, ne istediğimizi, neler yapabileceğimizi keşfetmek ve
+                    başkalarının bunu görebilmesini sağlamak” yazmaz hiç bir kurumsal eğitim programının içeriğinde,
+                    eğer yol arkadaşınız Murat Gümüş değilse...<br>
+
+                    Kişisel gelişim kitaplarında okuyup, beğenip, hayata geçirmekte
+                    zorlandıklarımızı kolaylaştıran kişidir Murat Gümüş.<br>
+
+                    Sizde olanı, size gösterir.<br>
+
+                    Tek bir kelime kullanma hakkım olsaydı, O’nu ayna olarak tanımlardım. Ayna kullanmayanımız var mı?
+
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -500,76 +576,35 @@
       </div>
     </section>
     <!-- End Testimonials Section -->
-    <hr class="hr-clr">
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+
+
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2 style="color: white;">İş Ortaklarımız</h2>
           <p style="color: #fed636;">İş Ortaklarımız</p>
         </div>
-
-        <div class="row">
-
-          <div class="col-xl-4 col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/partner/acıbadem-logo.jpg" class="img-fluid" alt="">
-              <!-- <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div> -->
-            </div>
+        
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="https://www.bupaacibadem.com.tr"><img class="sw-img" src="assets/img/partner/acıbadem-logo.jpg"></a></div>
+            <div class="swiper-slide"><a href="https://hektas.com.tr/en/"><img class="sw-img" src="assets/img/partner/hektaş-logo.jpg"></a></div>
+            <div class="swiper-slide"><a href="https://tkare.com/en/home/"><img class="sw-img" src="assets/img/partner/tek-kare-logo.jpg"></a></div>
+            <div class="swiper-slide"><a href="https://digiguardians.com/"><img class="sw-img" src="assets/img/partner/dg-logo.jpg"></a></div>
+            <div class="swiper-slide"><a href="https://www.agesa.com.tr/"><img class="sw-img" src="assets/img/partner/ageSA_logo-01.png"></a></div>
+            <div class="swiper-slide"><a href="https://www.bts-legal.com/"><img class="sw-img" src="assets/img/partner/bts-logo.jpg"></a></div>
           </div>
-
-          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/partner/hektaş-logo.jpg" class="img-fluid" alt="">
-              <!-- <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div> -->
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.2s">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/partner/tek-kare-logo.jpg" class="img-fluid" alt="">
-              <!-- <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div> -->
-            </div>
-          </div>
-
+          <div class="swiper-pagination"></div>
         </div>
-
+        <!-- End testimonial item -->
       </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Testimonials Section -->
+
     <hr class="hr-clr">
 
     <!-- ======= Frequently Asked Questions Section ======= -->
@@ -691,8 +726,8 @@
 
           </div>
 
-          <div class="col-lg-6" style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);  background-color: white;">
-            <form action="index.php?islem" method="post" class="form-control" style="margin-top: 5%;">
+          <div class="col-lg-6" style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);  background-color: white; height: fit-content;">
+            <form action="index.php?islem" method="post" style="margin-top: 5%;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="isim" id="isim" class="form-control" placeholder="İsminiz" required>
@@ -711,7 +746,7 @@
               </div>
               <div class="text-center">
                 <button type="submit" class="btn btn-sm btn-primary"
-                  style="background-color: #e9c648; margin-top: 15px; border: none;">Gönder</button>
+                  style="background-color: #e9c648; margin-top: 15px; border: none; margin-bottom: 70px;">Gönder</button>
               </div>
               <?php
                 if (isset($_GET['islem'])) {
@@ -788,6 +823,7 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+
   <script src="assets/js/jquery-1.11.0.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -799,6 +835,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 
 </html>
